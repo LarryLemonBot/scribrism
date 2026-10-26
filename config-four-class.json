@@ -1,0 +1,7 @@
+{
+  "window_tokens": 256,
+  "minimum_score": 0.7,
+  "region_override": true,
+  "region_confidence": 0.6,
+  "mixed_min_fraction": 0.1
+}

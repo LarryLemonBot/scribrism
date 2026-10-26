@@ -1,0 +1,7 @@
+torch==2.8.0
+transformers==4.48.2
+safetensors==0.6.2
+sentencepiece==0.2.1
+scipy==1.16.2
+scikit-learn==1.7.2
+pypdf==6.1.1

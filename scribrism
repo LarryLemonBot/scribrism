@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+scribrism_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -n "${SCRIBRISM_PYTHON:-}" ]; then
+    exec "$SCRIBRISM_PYTHON" "$scribrism_dir/service.py" "$@"
+elif [ -x "$scribrism_dir/.venv/bin/python" ]; then
+    exec "$scribrism_dir/.venv/bin/python" "$scribrism_dir/service.py" "$@"
+else
+    exec python3 "$scribrism_dir/service.py" "$@"
+fi

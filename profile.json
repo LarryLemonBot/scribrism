@@ -1,0 +1,9 @@
+{
+  "backend": "four_class",
+  "config_file": "config-four-class.json",
+  "model_id": "wasitaigeneratedcom/ai-text-detector-small",
+  "model_revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "model_manifest_sha256": "86e9cdb4d7e5a2a0ffa73dbaf283b39f45449ac47b2cbd5c338f85d6dcbcf762",
+  "validation_status": "experimental_unvalidated",
+  "product": "scribrism"
+}

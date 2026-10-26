@@ -1,0 +1,34 @@
+Scribrism
+Copyright 2026 Scribrism contributors
+
+Scribrism includes a local four-class inference adapter informed by the
+published model architecture example for:
+
+- wasitaigeneratedcom/ai-text-detector-small, revision
+  f1795c86806e6838d4afa33d0b1427f8430c9615 (Apache-2.0 declaration).
+
+The adapter has been modified for pinned local loading, explicit tensor
+loading, complete overlapping-window coverage, validation and local reporting.
+Model weights, tokenizers, research corpora and third-party library packages
+are not included in this source distribution.
+
+The four-class model publisher supplies these upstream attributions:
+
+Upstream: desklib/ai-text-detector-v1.01 - Copyright (c) Desklib, MIT License
+Upstream: microsoft/deberta-v3-large - Copyright (c) Microsoft Corporation,
+MIT License
+
+The publisher's complete notice is retained in
+licenses/wasitaigenerated-model-NOTICE.txt. Applicable MIT permission and
+warranty notices are retained under licenses/.
+
+The research-only masked pooling implementation is newly written code
+developed after auditing FAID's published pooling behavior. FAID source is
+not vendored.
+Research attribution: Minh N. Ta and the FAID authors; upstream code license:
+Copyright (c) 2025 Minh N. Ta, MIT License. The license text is retained in
+licenses/MIT-FAID.txt as provenance.
+
+Public source links, revision pins and license-evidence limits are documented
+in THIRD_PARTY.md. These notices do not imply endorsement by the upstream
+authors or change the licenses of external model artifacts.

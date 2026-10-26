@@ -1,0 +1,8 @@
+This model is a derivative work.
+
+Upstream: desklib/ai-text-detector-v1.01 — Copyright (c) Desklib, MIT License
+Upstream: microsoft/deberta-v3-large — Copyright (c) Microsoft Corporation, MIT License
+
+The MIT License permits use, copy, modification and distribution provided the
+above copyright notices and the permission notice are included in all copies
+or substantial portions of the software.
